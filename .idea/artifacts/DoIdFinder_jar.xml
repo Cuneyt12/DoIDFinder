@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DoIdFinder:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DoIdFinder_jar</output-path>
+    <root id="archive" name="DoIdFinder.jar">
+      <element id="module-output" name="DoIdFinder" />
+    </root>
+  </artifact>
+</component>
