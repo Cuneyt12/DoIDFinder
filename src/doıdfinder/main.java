@@ -93,7 +93,6 @@ public class main extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-
         idFound.setText(String.valueOf(idFinder(getP.getText())));
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -133,7 +132,6 @@ public class main extends javax.swing.JFrame {
     }
     
     public long idFinder(String param ) {
-        
            long sum = 0;
            int firstIndex = param.indexOf("=");
            int lastIndex = param.indexOf("&");
@@ -145,10 +143,8 @@ public class main extends javax.swing.JFrame {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Wrong URL!!!");
         }
-
         return sum;
     }
-
 
     private javax.swing.JTextArea getP;
     private javax.swing.JTextField idFound;
